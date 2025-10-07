@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8503659921819520747, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.8636115
+      value: 4.1636114
       objectReference: {fileID: 0}
     - target: {fileID: 8503659921819520747, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.1920247
+      value: 2.3579755
       objectReference: {fileID: 0}
     - target: {fileID: 8503659921819520747, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
       propertyPath: m_LocalPosition.z
@@ -174,7 +174,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1066121493979084428, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1901442408}
   m_SourcePrefab: {fileID: 100100000, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
 --- !u!4 &17838693 stripped
 Transform:
@@ -2623,6 +2626,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2268026540670395196, guid: 1b5634f709bfe744a84b62d6cf787d12, type: 3}
   m_PrefabInstance: {fileID: 987002674}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1901442407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1066121493979084428, guid: 3b4b60dd50e59d54e9e00195b5dcb055, type: 3}
+  m_PrefabInstance: {fileID: 14546785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1901442408
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901442407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96f3b39f091683f42af495510858b596, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1931431155
 PrefabInstance:
   m_ObjectHideFlags: 0
